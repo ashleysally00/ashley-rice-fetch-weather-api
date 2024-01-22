@@ -1,0 +1,45 @@
+h1 {
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 4rem;
+}
+
+#box {
+  display: flex;
+  flex-direction: column;
+  flex-basis: auto;
+  /* justify-content: center; */
+}
+
+#button,
+#saveButton,
+#deleteButton,
+#convertToFButton,
+#cityInput {
+  margin-bottom: 1rem;
+  border-radius: 10%;
+  height: 2rem;
+  font-size: 1.3rem;
+  display: flex;
+  margin: auto;
+}
+
+#button {
+  margin-top: 1.9rem;
+  margin-bottom: 1.5rem;
+}
+#saveButton {
+  margin-top: 1.7rem;
+}
+
+#cityInput {
+  width: 12%;
+  height: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+#weather-results,
+p {
+  font-size: 1.5rem;
+  text-align: center;
+}
